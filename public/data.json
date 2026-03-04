@@ -1,0 +1,182 @@
+[
+  {
+    "id": "BUG-8f2k9a",
+    "title": "Login Page White Screen",
+    "description": "Users reporting a blank white screen on Safari browser.",
+    "customer": "Arif Ahmed",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T08:30:00Z"
+  },
+  {
+    "id": "SEC-2p5x1v",
+    "title": "Failed Login Alert",
+    "description": "Brute force attack detected from IP 192.168.1.105.",
+    "customer": "System Admin",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T09:45:00Z"
+  },
+  {
+    "id": "FEA-7m3n4o",
+    "title": "Add Dark Mode Toggle",
+    "description": "Request for a dark/light mode switcher in the dashboard.",
+    "customer": "Jessica Lee",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-01T11:20:00Z"
+  },
+  {
+    "id": "PER-1q9z6s",
+    "title": "Home Page Loading Slow",
+    "description": "LCP (Largest Contentful Paint) is above 4 seconds on mobile.",
+    "customer": "Marketing Team",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02T10:15:00Z"
+  },
+  {
+    "id": "API-4d8v0w",
+    "title": "Websocket Connection Drop",
+    "description": "Live update stops working after 10 minutes of inactivity.",
+    "customer": "Dev Team",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T14:40:00Z"
+  },
+  {
+    "id": "UIX-6y2t1r",
+    "title": "Button Color Contrast",
+    "description": "The primary button color fails accessibility WCAG standards.",
+    "customer": "Design Lead",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-02T16:00:00Z"
+  },
+  {
+    "id": "BUG-9b3k7c",
+    "title": "Double Charge on Checkout",
+    "description": "Stripe API calling twice for a single transaction.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-03T09:10:00Z"
+  },
+  {
+    "id": "FEA-3h5l8p",
+    "title": "Export Data to Excel",
+    "description": "Allow admins to download the ticket list in XLSX format.",
+    "customer": "Finance Dept",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03T12:30:00Z"
+  },
+  {
+    "id": "SEC-1j4f9u",
+    "title": "XSS Vulnerability in Search",
+    "description": "Search input allows script injection in the results page.",
+    "customer": "Security Auditor",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03T15:50:00Z"
+  },
+  {
+    "id": "API-5k8m2q",
+    "title": "Auth Token Expiry Issue",
+    "description": "Refresh token is not generating after 24 hours.",
+    "customer": "Mobile App Team",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T08:20:00Z"
+  },
+  {
+    "id": "BUG-7v2w0z",
+    "title": "Image Upload Failing",
+    "description": "Profile picture upload returns 413 Payload Too Large.",
+    "customer": "User 552",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-03-04T10:00:00Z"
+  },
+  {
+    "id": "FEA-9x3c6v",
+    "title": "Multilingual Support",
+    "description": "Request to translate the dashboard into Spanish and Arabic.",
+    "customer": "Global Partner",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-04T13:45:00Z"
+  },
+  {
+    "id": "UIX-1a7s4d",
+    "title": "Footer Missing on Blog",
+    "description": "The footer component is not rendering on individual blog posts.",
+    "customer": "Content Team",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T15:10:00Z"
+  },
+  {
+    "id": "BUG-4r8e2w",
+    "title": "Email Link Expired",
+    "description": "Verification emails expire in 1 minute instead of 1 hour.",
+    "customer": "New Users",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04T16:30:00Z"
+  },
+  {
+    "id": "PER-6n0b3m",
+    "title": "Database Query Optimization",
+    "description": "Report generation taking 45 seconds to fetch data.",
+    "customer": "Operations",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T17:50:00Z"
+  },
+  {
+    "id": "SEC-3t9y7u",
+    "title": "Update Node.js Version",
+    "description": "Current Node version has a known security flaw (CVE-2026).",
+    "customer": "DevOps",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-03-04T18:15:00Z"
+  },
+  {
+    "id": "FEA-5p1o2i",
+    "title": "Push Notification Customizer",
+    "description": "Allow users to choose which events trigger a notification.",
+    "customer": "Power Users",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-04T19:00:00Z"
+  },
+  {
+    "id": "API-2g4h6j",
+    "title": "Incorrect Refund Calculation",
+    "description": "Partial refunds are not calculating tax deduction correctly.",
+    "customer": "Support Desk",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T20:25:00Z"
+  },
+  {
+    "id": "UIX-8q5w3e",
+    "title": "Sticky Header Issue",
+    "description": "Header disappears when scrolling fast on Chrome.",
+    "customer": "Beta Testers",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-04T21:40:00Z"
+  },
+  {
+    "id": "BUG-1z9v5n",
+    "title": "Typo in Terms of Service",
+    "description": "Clause 4.2 has a spelling mistake: 'Libality' instead of 'Liability'.",
+    "customer": "Legal Team",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-04T22:10:00Z"
+  }
+]

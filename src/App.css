@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+@theme {
+  --font-arimo: 'arimo', 'sans-serif';
+}
