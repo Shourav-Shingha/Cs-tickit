@@ -73,7 +73,7 @@ const Navber = () => {
               </li>
           </ul>
         </div>
-          <a className="btn bg-linear-to-br from-purple-600 via-purple-500  to-pink-300  w-32 text-white p-0 font-semibold rounded-md">+ New Ticket</a>
+          <a className="btn bg-linear-to-br from-purple-800 via-purple-700  to-pink-400  w-32 text-white p-0 font-semibold rounded-md">+ New Ticket</a>
         </div>
       </div>
     </div>

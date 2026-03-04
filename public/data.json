@@ -50,7 +50,7 @@
     "description": "The primary button color fails accessibility WCAG standards.",
     "customer": "Design Lead",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2026-03-02T16:00:00Z"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Profile picture upload returns 413 Payload Too Large.",
     "customer": "User 552",
     "priority": "Medium",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2026-03-04T10:00:00Z"
   },
   {
@@ -140,7 +140,7 @@
     "description": "Current Node version has a known security flaw (CVE-2026).",
     "customer": "DevOps",
     "priority": "High",
-    "status": "Resolved",
+    "status": "In Progress",
     "createdAt": "2026-03-04T18:15:00Z"
   },
   {
@@ -176,7 +176,7 @@
     "description": "Clause 4.2 has a spelling mistake: 'Libality' instead of 'Liability'.",
     "customer": "Legal Team",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2026-03-04T22:10:00Z"
   }
 ]
