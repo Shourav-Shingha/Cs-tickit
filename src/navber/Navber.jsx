@@ -3,7 +3,7 @@ import React from "react";
 const Navber = () => {
   return (
     <div>
-      <div className="navbar px-16 bg-white ">
+      <div className="navbar px-16 border-b border-gray-200 bg-white ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -73,7 +73,7 @@ const Navber = () => {
               </li>
           </ul>
         </div>
-          <a className="btn bg-linear-to-br from-purple-600 from-60% to-pink-300 w-32 text-white p-0">+ New Tickit</a>
+          <a className="btn bg-linear-to-br from-purple-600 via-purple-500  to-pink-300  w-32 text-white p-0 font-semibold rounded-md">+ New Ticket</a>
         </div>
       </div>
     </div>

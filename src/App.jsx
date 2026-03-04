@@ -1,15 +1,14 @@
 import { ToastContainer } from 'react-toastify';
 import './App.css'
 import Navber from './navber/Navber';
+import Banner from './banner section/Banner';
 
 function App() {
 
   return (
-    <div >
+    <div className='font-arimo'>
     <Navber></Navber>
-    <div className='w-11/12 mx-auto bg'>
-
-    </div>
+    <Banner></Banner>
       <ToastContainer />
     </div>
   )
