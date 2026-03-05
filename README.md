@@ -1,16 +1,26 @@
-# React + Vite
+Question 1 = What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ans: Javascript XML,  its besically a writing style where we able to write javascript and html together. it's used to creat simplysityin coding and better ui design.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Question 2 = What is the difference between State and Props?
+ans: state is declear to change or update any kind of data increase or decrease,its also help to switch  sumthing conditionally by useing true, false. 
+props r besically like a turnel or portel.  its send data from one component to another components. 
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Question 3 = What is the useState hook, and how does it work?
+ans: const [use, setuse]=usestate()
+usestate is like a function. according to the example  use is the data. data can be update by useing setuse(use+ anything) and it will stay in under usestate() 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Question 4 = How can you share state between components in React?
+ans: example....
+const [use, setuse]=usestate()
+return(
+    <components use={use} setuse={setuse}>
+    anyone can able to change the name before (=) equal
+)
+
+
+Question 5 = How is event handling done in React?
+ans: javascript eventhandelling like add even listener dose not word in react. In react its totally update and easy. just add onclick() where you want to used eventHandeling. then call a function in  onclick like onclick(handleClick()) now its ready  just write a handleClick function on the top under the main function  and write whatever you want in the function. just check if you dont want to automatic call the onclick function.  if dont ? just use onclick(()=>handleClick()) like this.

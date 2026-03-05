@@ -1,4 +1,5 @@
 import React, { use } from "react";
+import { toast } from "react-toastify";
 import { GoDotFill } from "react-icons/go";
 import { FaRegCalendarAlt } from "react-icons/fa";
 
@@ -8,6 +9,7 @@ const CardData = ({ customerData, cardDisable, setcardDisable }) => {
   const HandleClick = (data) => {
     if (!cardDisable.some(t => t.id === data.id)) {
       setcardDisable(prev => [...prev, { ...data, resolved: false }]);
+      toast.success("Ticket added to task!");
     }
   };
 
